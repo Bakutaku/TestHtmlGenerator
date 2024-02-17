@@ -1,0 +1,25 @@
+        </section>
+    </section>
+
+    <script>
+        // リセット(非表示)
+        var classData = document.getElementsByClassName("dispReset");
+        for(var i = 0; i < classData.length; i++){
+            classData[i].style.visibility = "hidden";
+        }
+            
+        // 表示を切り替えるメソッド(引数はID名)
+        function disp(str){
+            // 表示を切り返すIDのを取得
+            var ch = document.getElementById(str);
+            // 表示切り替え(非表示なら表示、表示なら非表示に)
+            if(ch.style.visibility=="visible"){
+                ch.style.visibility = "hidden";
+            }else{
+                ch.style.visibility = "visible";
+            }
+        }
+        
+    </script>
+</body>
+</html>

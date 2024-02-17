@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テスト対策</title>
+    <style>
+        @charset "utf-8";
+
+.title {
+    color: #1c8d00ab;
+    text-align: center;
+    background-color: #ffffffcf;
+}
+
+.containe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000086;
+}
+
+.centering_parent {
+    background-color: #ffffffbe;
+    padding: 20px;
+    /*height: 900px;*/
+    width: 600px;
+    position: relative;
+}
+
+.centering_item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    padding:  20px;
+}
+
+.font_size {
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.width li {
+    display: inline-block;
+    color: #200e6b;
+    background-color: #2ec533be;
+    margin: 20;
+    line-height: 150%;
+    padding: 5px 5px 5px;
+}
+
+.ar {
+    display: inline-block;
+    background-color: #ffffffda;
+    padding: 0px 5px;
+    line-height: 90%;
+}
+
+
+.pick li{
+    display: inline-block;
+    background-color: #ed932cec;
+    line-height: 90%;
+    padding: 2px;
+    font-size: 120%;
+}
+
+
+.height li {
+    list-style-type: lower-latin;
+    color: #200e6b;
+    background-color: #2ec533be;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 90%;
+}
+
+.dispReset {
+    color: #ffffffda;
+    display: inline-block;
+    background-color: #049ec586;
+
+}
+
+
+table , th , td{
+    border: solid 1px black;
+    text-align: center;
+}
+
+code{
+    display: block;
+    color: #7acfa7b7;
+    margin-top: 10px;
+    line-height: 20px;
+    background-color: #0d0d0dec;
+    overflow: scroll
+}
+
+
+    </style>
+</head>
+<body class="containe">
+    <section class="centering_parent">
+        <h1 class="title">問題集</h1>
+
+        <section>
+            <ul class="list">
